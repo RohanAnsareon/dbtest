@@ -69,5 +69,16 @@
     <Build Include="dbo\Tables\Rating.sql" />
     <Build Include="dbo\Tables\User.sql" />
     <Build Include="dbo\Tables\Video.sql" />
+    <Build Include="dbo\Tables\UserRole.sql" />
+    <Build Include="dbo\Tables\ScriptsExecuted.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DatabaseProject.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="DatabaseProject.refactorlog" />
   </ItemGroup>
 </Project>

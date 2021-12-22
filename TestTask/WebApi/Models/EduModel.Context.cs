@@ -32,5 +32,8 @@ namespace WebApi.Models
         public virtual DbSet<Rating> Ratings { get; set; }
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Video> Videos { get; set; }
+        public virtual DbSet<C__RefactorLog> C__RefactorLog { get; set; }
+        public virtual DbSet<ScriptsExecuted> ScriptsExecuteds { get; set; }
+        public virtual DbSet<UserRole> UserRoles { get; set; }
     }
 }
